@@ -6,4 +6,6 @@ class Class_Name{
   public static void main(String[] args)
   {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    int[] arr=Arrays.stream(
+    int[] arr=Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
+  }
+ }
