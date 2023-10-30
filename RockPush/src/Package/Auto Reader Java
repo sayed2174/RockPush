@@ -1,0 +1,9 @@
+Some times some Java Coding Questions are like reading the array from console or test case input then the solution for these is:
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Arrays;
+class Class_Name{
+  public static void main(String[] args)
+  {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    int[] arr=Arrays.stream(
